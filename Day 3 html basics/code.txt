@@ -5,3 +5,13 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/BhamuThapa26/105f_htmlBasics.git
 git push -u origin main
+
+त्यस पछि पुन: फाईलहरु अपडेट गर्नु पर्‍यो भने तलको ३ वटा code मात्र हाल्दा हुन्छ ।
+git add .
+git commit -m "add type गर्ने र जुन फाईल हाल्नु पर्ने हो त्यही फाईलको नाम राख्ने"
+git push
+
+Delete गर्नु पर्‍यो भने पुन : ३ वटा code हाल्ने ।
+git add .
+git commit -m "delete type गर्ने र जुन फाईल हटाउनु पर्ने हो त्यही फाईलको नाम राख्ने"
+git push
