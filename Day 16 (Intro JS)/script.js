@@ -15,7 +15,16 @@
 // console.log(name1)
 
 //Array
-// var names = ['Bhamu Thapa', 'Puspa Thapa', 'Punam Thapa', 'Sarita Thapa', '45']
+var names = ['Bhamu Thapa', 'Puspa Thapa', 'Punam Thapa', 'Sarita Thapa', '45']
+console.log(names.includes('Raj Bista')) //checks if the element is present in array or not. If present, returns true else false.
+console.log(names.indexOf('Puspa Thapa')) //returns index of element in array.
+console.log(names.reverse()) //reverses the array.
+console.log(names.sort()) //sorts the array in ascending order.
+// // names.push('Ram Thapa') //adds element at the end of array.
+
+var doesExit= names.includes('Puspa Thapa')
+console.log(doesExit) //checks if the element is present in array or not. If present, returns true else false.
+
 // // names.pop() //removes last element (word/sentence etc.) from array.
 // // names.shift()  //removes first element from array.
 // // names[0]= 'Bhim Thapa' //replaces first element of array.
